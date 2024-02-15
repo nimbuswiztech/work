@@ -1,6 +1,7 @@
 #!/bin/bash
 	space=`df -h .|tail -1|awk -F " " '{print $5}'|sed 's/%//g'`
 	if [ $space -ge 90 ]
-	echo "Disk is full, Please take appropriate action."|mail -s "Disk memory full" -c "abc.com" "devops.com"
+	then
+		echo "Disk is full, Please take appropriate action."|mail -s "Disk memory full" -c "abc.com" "devops.com"
 	fi
 
