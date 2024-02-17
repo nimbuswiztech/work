@@ -1,5 +1,7 @@
 #!/bin/bash
+
 # developer 2 adding code for testing 
+
 echo "enter Num1"
 read num1
 echo "enter num2"
