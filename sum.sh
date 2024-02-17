@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# developer 2 adding code for testing 
-
+ # fetch test
 echo "enter Num1"
 read num1
 echo "enter num2"
